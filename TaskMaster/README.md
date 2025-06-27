@@ -11,7 +11,8 @@ Application for daily task management.
 - MongoDB
 - Bootstrap
 
-## Instalación
+## Instalación / Installation
+
 ```bash
 # Backend
 cd api
