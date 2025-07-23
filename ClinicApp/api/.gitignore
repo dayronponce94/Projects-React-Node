@@ -1,0 +1,21 @@
+# Variables de entorno
+.env
+.env.*
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Archivos de sesión y caché
+*.pid
+*.seed
+*.pid.lock
+
+# Archivos de base de datos local
+*.db
+*.sqlite
+*.sqlite3
+
+# Directorios de depuración
+debug/

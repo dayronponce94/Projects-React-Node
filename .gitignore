@@ -1,0 +1,65 @@
+# --------------------------------------
+# Ignorar archivos de entorno / Ignore environment files
+# --------------------------------------
+.env
+.env.*
+.env.local
+*.env
+
+# --------------------------------------
+# Ignorar dependencias / Ignore dependencies  
+# --------------------------------------
+**/node_modules/  # Ignora en todos los niveles / Ignore at all levels
+
+# --------------------------------------
+# Ignorar archivos de sistema / Ignore system files 
+# --------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --------------------------------------
+# Ignorar archivos de compilación / Ignore build files  
+# --------------------------------------
+dist/
+build/
+out/
+coverage/
+*.log
+logs/
+
+# --------------------------------------
+# Ignorar configuraciones de IDE / Ignore IDE configurations
+# --------------------------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# Archivos de caché y temporales / Cache and temporary files
+.cache/
+*.tmp
+*.temp
+
+# Archivos de paquetes / Package files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos de sistema operativo / Operating system files
+ehthumbs.db
+[Tt]humbs.db
+
+# Archivos de sesión y bloqueo / Session files and locking
+*.pid
+*.seed
+*.pid.lock
+
+# Archivos de base de datos local / Local database files
+*.db
+*.sqlite
+*.sqlite3
