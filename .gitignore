@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # --------------------------------------
 # Ignorar archivos de entorno / Ignore environment files
 # --------------------------------------
@@ -63,3 +64,24 @@ ehthumbs.db
 *.db
 *.sqlite
 *.sqlite3
+=======
+# Ignorar archivos de entorno / Ignore environment files
+.env
+.env.local
+
+# Ignorar dependencias /  Ignore dependencies  
+node_modules/
+
+# Ignorar archivos de sistema / Ignore system files 
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de compilación / Ignore build files  
+dist/
+build/
+*.log
+
+# Ignorar configuraciones de IDE / Ignore IDE configurations
+.vscode/
+.idea/ 
+>>>>>>> 8fa29817a06746b5c53c759f1bb15218a919042c
