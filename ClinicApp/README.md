@@ -26,7 +26,7 @@ Full application for managing medical appointments.
 
 ## Configuración inicial
 
-1. Copia el archivo de ejemplo de variables de entorno / Copy the example environment variables file:
+Copia el archivo de ejemplo de variables de entorno / Copy the example environment variables file:
 
 cd api
 
