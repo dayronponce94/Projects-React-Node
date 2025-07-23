@@ -1,37 +1,39 @@
-<<<<<<< HEAD
-# --------------------------------------
-# Ignorar archivos de entorno / Ignore environment files
-# --------------------------------------
+# ======================================
+# Archivos de entorno / Environment files
+# ======================================
 .env
 .env.*
-.env.local
-*.env
+!.env.example
 
-# --------------------------------------
-# Ignorar dependencias / Ignore dependencies  
-# --------------------------------------
-**/node_modules/  # Ignora en todos los niveles / Ignore at all levels
+# ======================================
+# Dependencias / Dependencies
+# ======================================
+**/node_modules/
 
-# --------------------------------------
-# Ignorar archivos de sistema / Ignore system files 
-# --------------------------------------
+# ======================================
+# Archivos del sistema operativo / Operating system files
+# ======================================
 .DS_Store
 Thumbs.db
 desktop.ini
+ehthumbs.db
 
-# --------------------------------------
-# Ignorar archivos de compilación / Ignore build files  
-# --------------------------------------
+# ======================================
+# Archivos de compilación y logs / Build files and logs
+# ======================================
 dist/
 build/
 out/
 coverage/
 *.log
 logs/
+.cache/
+*.tmp
+*.temp
 
-# --------------------------------------
-# Ignorar configuraciones de IDE / Ignore IDE configurations
-# --------------------------------------
+# ======================================
+# Configuraciones de IDE / IDE Configurations
+# ======================================
 .vscode/
 .idea/
 *.suo
@@ -40,48 +42,19 @@ logs/
 *.sln
 *.sw?
 
-
-# Archivos de caché y temporales / Cache and temporary files
-.cache/
-*.tmp
-*.temp
-
-# Archivos de paquetes / Package files
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
-
-# Archivos de sistema operativo / Operating system files
-ehthumbs.db
-[Tt]humbs.db
-
-# Archivos de sesión y bloqueo / Session files and locking
+# ======================================
+# Archivos de sesión o bases de datos / Session files or databases
+# ======================================
 *.pid
 *.seed
 *.pid.lock
-
-# Archivos de base de datos local / Local database files
 *.db
 *.sqlite
 *.sqlite3
-=======
-# Ignorar archivos de entorno / Ignore environment files
-.env
-.env.local
 
-# Ignorar dependencias /  Ignore dependencies  
-node_modules/
-
-# Ignorar archivos de sistema / Ignore system files 
-.DS_Store
-Thumbs.db
-
-# Ignorar archivos de compilación / Ignore build files  
-dist/
-build/
-*.log
-
-# Ignorar configuraciones de IDE / Ignore IDE configurations
-.vscode/
-.idea/ 
->>>>>>> 8fa29817a06746b5c53c759f1bb15218a919042c
+# ======================================
+# Archivos de paquetes / Package files
+# ======================================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
