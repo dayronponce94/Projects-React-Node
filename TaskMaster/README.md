@@ -8,8 +8,8 @@ Application for daily task management.
 
 - React 18
 - Node.js 20
-- Express
-- MongoDB
+- Express 5.1.0
+- MongoDB 8.16.1
 - Bootstrap
 
 ## Instalación / Installation
@@ -24,3 +24,11 @@ npm run dev
 cd ui
 npm install
 npm run dev
+
+## Configuración inicial
+
+Copia el archivo de ejemplo de variables de entorno / Copy the example environment variables file:
+
+cd api
+
+cp .env.example .env
