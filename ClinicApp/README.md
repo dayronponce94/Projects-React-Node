@@ -12,17 +12,16 @@ Full application for managing medical appointments.
 
 ## Instalación / Installation
 
-#Backend
-- cd clinicapp 
-- cd api
-- npm install 
-- npm run dev
+```bash
+# Backend
+cd api
+npm install
+npm run dev
 
-#Frontend
-- cd clinicapp
-- cd ui
-- npm install
-- npm start
+# Frontend
+cd ui
+npm install
+npm run dev
 
 ## Configuración inicial
 
