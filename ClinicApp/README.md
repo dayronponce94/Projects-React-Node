@@ -13,18 +13,27 @@ Full application for managing medical appointments.
 ## Instalación / Installation
 
 #Backend
+
 cd clinicapp 
+
 cd api
+
 npm install 
+
 npm run dev
 
 #Frontend
+
 cd clinicapp
+
 cd ui
+
 npm install
+
 npm start
 
 ## Configuración inicial
+
 1. Copia el archivo de ejemplo de variables de entorno / Copy the example environment variables file:
 
 cd api
