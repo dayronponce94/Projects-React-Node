@@ -1,4 +1,4 @@
-# ClinicApp - Citas médicas en línea / Online Medical Appointments
+# ClinicApp - Sistema de Citas Médicas / Medical Appointment System
 Aplicación completa para gestión de citas médicas.
 
 Full application for managing medical appointments.
