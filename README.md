@@ -8,7 +8,7 @@ Repository containing multiple full-stack projects with React and Node.js.
 ## Proyectos / Included Projects
 
 1. [TaskMaster](./TaskMaster) - Gestor de tareas / Task Master
-2. [ClinicApp](./ClinicApp/) - Citas médicas en línea /  Online Medical Appointments
+2. [ClinicApp](./ClinicApp/) - Sistema de gestión de citas médicas / Medical appointment system
 
 
 ## Cómo Usar / How to use
