@@ -6,11 +6,11 @@ Application for daily task management.
 
 ## Tecnologías / Technologies
 
-- React 18
-- Node.js 20
+- React 19.1.0
+- Node.js 20.0.0
 - Express 5.1.0
 - MongoDB 8.16.1
-- Bootstrap
+- Bootstrap 5.3.7
 
 ## Instalación / Installation
 
@@ -25,7 +25,7 @@ cd ui
 npm install
 npm run dev
 
-## Configuración inicial
+## Configuración inicial / Initial setup
 
 Copia el archivo de ejemplo de variables de entorno / Copy the example environment variables file:
 
