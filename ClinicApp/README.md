@@ -1,7 +1,7 @@
-# ClinicApp - Sistema de Citas Médicas / Medical Appointment System
-Aplicación completa para gestión de citas médicas.
+# ClinicApp - Citas médicas en línea / Online Medical Appointments
+Aplicación web completa para la gestión de turnos médicos online.
 
-Full application for managing medical appointments.
+Complete web application for online medical appointment management.
 
 ## Tecnologías / Technologies
 - React 19.1.0       
@@ -23,7 +23,7 @@ cd ui
 npm install
 npm run dev
 
-## Configuración inicial
+## Configuración inicial / Initial setup
 
 Copia el archivo de ejemplo de variables de entorno / Copy the example environment variables file:
 
